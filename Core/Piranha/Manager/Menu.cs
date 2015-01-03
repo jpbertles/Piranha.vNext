@@ -84,8 +84,11 @@ namespace Piranha.Manager
 					},
 					new MenuItem() {
 						InternalId = "Posts", Name = "Posts", Controller = "PostMgr", Action = "List"
-					}
-				}
+					},
+                    new MenuItem() {
+                        InternalId = "Media", Name = "Media", Controller = "MediaMgr", Action = "List"
+                    }
+                }
 			},
 			new MenuItem() {
 				InternalId = "Settings", Name = "Settings", Css = "ico-settings", Items = new List<MenuItem>() {

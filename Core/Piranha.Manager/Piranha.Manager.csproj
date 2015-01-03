@@ -358,6 +358,7 @@
     <Compile Include="Areas\Manager\Controllers\ConfigMgrController.cs" />
     <Compile Include="Areas\Manager\Controllers\DashboardMgrController.cs" />
     <Compile Include="Areas\Manager\Controllers\ManagerController.cs" />
+    <Compile Include="Areas\Manager\Controllers\MediaMgrController.cs" />
     <Compile Include="Areas\Manager\Controllers\PostMgrController.cs" />
     <Compile Include="Areas\Manager\Controllers\PageTypeMgrController.cs" />
     <Compile Include="Areas\Manager\Controllers\PostTypeMgrController.cs" />
@@ -676,6 +677,9 @@
     <Content Include="Areas\Manager\Views\PageTypeMgr\Edit.cshtml">
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>Edit.generated.cs</LastGenOutput>
+    </Content>
+    <Content Include="Areas\Manager\Views\MediaMgr\List.cshtml">
+      <Generator>RazorGenerator</Generator>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
